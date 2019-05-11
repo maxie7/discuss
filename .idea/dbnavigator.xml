@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="43dd5371-aabc-4af5-922c-d82b02dee38a">
-        <schema name="public" object-types="sequence, table, index, column, constraint, function, dataset trigger, view" />
+        <schema name="public" object-types="view, table" />
       </connection>
     </loaded-nodes>
   </component>
@@ -73,7 +73,7 @@
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
-          <database-version value="11.2" />
+          <database-version value="11.3" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
