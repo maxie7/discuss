@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0f0e33-2593-4eba-a48f-df47191fd634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/channels/comments_channel.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/channels/comments_channel.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static/js/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/socket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/topic/show.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/topic/show.html.eex" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/js/socket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+            <state relative-caret-position="710">
+              <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -53,16 +50,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="54">
+              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/templates/topic/show.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -89,10 +86,10 @@
         <option value="$PROJECT_DIR$/web/models/comment.ex" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/channels/user_socket.ex" />
-        <option value="$PROJECT_DIR$/web/static/js/socket.js" />
         <option value="$PROJECT_DIR$/web/static/js/app.js" />
-        <option value="$PROJECT_DIR$/web/channels/comments_channel.ex" />
         <option value="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
+        <option value="$PROJECT_DIR$/web/static/js/socket.js" />
+        <option value="$PROJECT_DIR$/web/channels/comments_channel.ex" />
       </list>
     </option>
   </component>
@@ -208,12 +205,12 @@
       <workItem from="1557687425817" duration="2837000" />
       <workItem from="1558815276978" duration="21000" />
       <workItem from="1558816174306" duration="8171000" />
-      <workItem from="1558865998784" duration="3985000" />
+      <workItem from="1558865998784" duration="5904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39518000" />
+    <option name="totallyTimeSpent" value="41437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -404,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/socket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -424,17 +411,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/topic/show.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/socket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="65" column="54" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
