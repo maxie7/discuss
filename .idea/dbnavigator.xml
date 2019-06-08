@@ -25,7 +25,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="43dd5371-aabc-4af5-922c-d82b02dee38a">
-        <schema name="public" object-types="view, table" />
+        <schema name="public" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -42,6 +42,11 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="43dd5371-aabc-4af5-922c-d82b02dee38a" dataset="public.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="43dd5371-aabc-4af5-922c-d82b02dee38a" dataset="public.comments" active-filter-id="a8c10ec5-3cb7-43ef-aa82-2a8f84c0aea1">
+      <filter id="a8c10ec5-3cb7-43ef-aa82-2a8f84c0aea1" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="43dd5371-aabc-4af5-922c-d82b02dee38a" dataset="public.topics" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
@@ -81,8 +86,7 @@
           <host value="localhost" />
           <port value="5432" />
           <database value="discuss_dev" />
-          <os-authentication value="false" />
-          <empty-authentication value="false" />
+          <type value="USER_PASSWORD" />
           <user value="maxie" />
           <deprecated-pwd value="bWF4aWU=" />
         </database>
@@ -120,7 +124,7 @@
           <max-connection-pool-size value="7" />
           <alternative-statement-delimiter value="" />
         </details>
-        <object-filters hide-empty-schemas="false">
+        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
           <object-type-filter use-master-settings="true">
             <object-type name="SCHEMA" enabled="true" />
             <object-type name="USER" enabled="true" />
