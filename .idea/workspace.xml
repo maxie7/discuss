@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0f0e33-2593-4eba-a48f-df47191fd634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/web/channels/comments_channel.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/channels/comments_channel.ex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/channels/user_socket.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/channels/user_socket.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/socket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/layout/app.html.eex" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/layout/app.html.eex" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/channels/user_socket.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="270">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="302">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -111,11 +110,11 @@
         <option value="$PROJECT_DIR$/web/static/js/app.js" />
         <option value="$PROJECT_DIR$/web/models/comment.ex" />
         <option value="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
-        <option value="$PROJECT_DIR$/web/channels/comments_channel.ex" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
         <option value="$PROJECT_DIR$/web/static/js/socket.js" />
         <option value="$PROJECT_DIR$/web/channels/user_socket.ex" />
+        <option value="$PROJECT_DIR$/web/channels/comments_channel.ex" />
       </list>
     </option>
   </component>
@@ -224,12 +223,12 @@
       <workItem from="1559509411462" duration="598000" />
       <workItem from="1560024286997" duration="3219000" />
       <workItem from="1560201058242" duration="2252000" />
-      <workItem from="1560284644623" duration="1650000" />
+      <workItem from="1560284644623" duration="3031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50928000" />
+    <option name="totallyTimeSpent" value="52309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -418,13 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -469,8 +461,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/channels/user_socket.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="270">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
