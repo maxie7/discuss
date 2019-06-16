@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa0f0e33-2593-4eba-a48f-df47191fd634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/channels/comments_channel.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/channels/comments_channel.ex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/channels/user_socket.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/channels/user_socket.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/comment.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/comment.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models/user.ex" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/user.ex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/socket.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/static/js/socket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="710">
+              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -39,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="15" column="102" lean-forward="true" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+              <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -56,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="216">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -69,7 +72,16 @@
         <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/models/user.ex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -106,15 +118,15 @@
         <option value="$PROJECT_DIR$/web/templates/topic/index.html.eex" />
         <option value="$PROJECT_DIR$/priv/repo/migrations/20190511204226_add_comments.exs" />
         <option value="$PROJECT_DIR$/web/models/topic.ex" />
-        <option value="$PROJECT_DIR$/web/models/user.ex" />
         <option value="$PROJECT_DIR$/web/static/js/app.js" />
-        <option value="$PROJECT_DIR$/web/models/comment.ex" />
         <option value="$PROJECT_DIR$/web/templates/topic/show.html.eex" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web/templates/layout/app.html.eex" />
-        <option value="$PROJECT_DIR$/web/static/js/socket.js" />
         <option value="$PROJECT_DIR$/web/channels/user_socket.ex" />
         <option value="$PROJECT_DIR$/web/channels/comments_channel.ex" />
+        <option value="$PROJECT_DIR$/web/models/comment.ex" />
+        <option value="$PROJECT_DIR$/web/models/user.ex" />
+        <option value="$PROJECT_DIR$/web/static/js/socket.js" />
       </list>
     </option>
   </component>
@@ -129,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -151,6 +164,12 @@
               <item name="discuss" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/code/elixir/discuss" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="discuss" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/code/elixir/discuss" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -164,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -177,7 +195,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,12 +241,13 @@
       <workItem from="1559509411462" duration="598000" />
       <workItem from="1560024286997" duration="3219000" />
       <workItem from="1560201058242" duration="2252000" />
-      <workItem from="1560284644623" duration="3031000" />
+      <workItem from="1560284644623" duration="3265000" />
+      <workItem from="1560682955289" duration="2708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52309000" />
+    <option name="totallyTimeSpent" value="55251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
@@ -360,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/models/user.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/priv/repo/migrations/20190511204226_add_comments.exs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -407,6 +419,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/channels/user_socket.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="102" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -414,13 +447,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -438,38 +464,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="216">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/layout/app.html.eex">
+    <entry file="file://$PROJECT_DIR$/web/models/comment.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="102" lean-forward="true" selection-start-line="15" selection-start-column="102" selection-end-line="15" selection-end-column="102" />
+        <state relative-caret-position="81">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/models/user.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/channels/user_socket.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/channels/comments_channel.ex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="710">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
         </state>
       </provider>
     </entry>
